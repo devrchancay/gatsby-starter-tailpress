@@ -1,0 +1,59 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.more-link {
+  @apply underline;
+  @apply mt-2;
+  @apply font-sans;
+  @apply font-medium;
+  @apply text-gray-800;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+}
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5 {
+  @apply font-bold;
+  @apply my-3;
+}
+
+.post-body h2 {
+  @apply text-3xl;
+}
+
+.post-body h3 {
+  @apply text-2xl;
+}
+
+.post-body h4 {
+  @apply text-xl;
+}
+.post-body h5 {
+  @apply text-lg;
+}
+.post-body h6 {
+  @apply text-lg;
+}
+
+.post-body li {
+  @apply my-1;
+}
+
+.post-body img {
+  @apply my-2;
+}
+
+.post-body a {
+  @apply text-gray-800;
+  @apply font-medium;
+}

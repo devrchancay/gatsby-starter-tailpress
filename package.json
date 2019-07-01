@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-starter-tailpress",
+  "version": "1.0.0",
+  "description": "Start kit for gatsby, wordpress and tailwindcss",
+  "main": "n/a",
+  "repository": "git@github.com:devrchancay/gatsby-starter-tailpress.git",
+  "author": "Ramon Chancay <ramon.chancay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "styles": "tailwind build base.css -o ./src/base.css"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "gatsby": "^2.11.3",
+    "gatsby-paginate": "^1.1.0",
+    "gatsby-plugin-purgecss": "^4.0.0",
+    "gatsby-plugin-typography": "^2.3.0",
+    "gatsby-source-wordpress": "^3.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-typography": "^0.16.19",
+    "tailwindcss": "^1.0.4",
+    "typeface-lora": "^0.0.72",
+    "typeface-source-sans-pro": "^0.0.54",
+    "typography": "^0.16.19"
+  }
+}
