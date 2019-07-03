@@ -42,6 +42,9 @@ module.exports = {
           /screen-reader-text$/
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-react-helmet`
     }
   ]
 };

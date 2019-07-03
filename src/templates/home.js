@@ -4,12 +4,18 @@ import PageLayout from '../components/PageLayout';
 import Navigation from '../components/Navigation';
 import { Link } from 'gatsby';
 import '../base.css';
-
+import BasicMetas from '../components/BasicMetas';
+import { usePageHome } from '../hooks/use-home-querys';
 const Home = ({ pageContext }) => {
   const { group, index } = pageContext;
+  const { wordpressSiteMetadata } = usePageHome();
 
   return (
-    <PageLayout>
+    <PageLayout wordpressSiteMetadata={wordpressSiteMetadata}>
+      <BasicMetas
+        title={wordpressSiteMetadata.name}
+        description={wordpressSiteMetadata.description}
+      />
       <section className="py-2 px-3 mt-4">
         <div className="flex flex-col md:items-center">
           {index === 1 && (

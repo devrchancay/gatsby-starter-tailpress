@@ -5,3 +5,17 @@
 <hr/>
 
 Start kit for gatsby, wordpress and tailwindcss (BETA)
+
+### How To Use ( For development )
+
+```bash
+ #init project.
+ npx gatsby new awesome-gatsby https://github.com/devrchancay/gatsby-starter-tailpress/
+
+ # Enter the project folder.
+ cd awesome-gatsby
+ # create .env file
+ cp .env.example .env
+ # run development server
+ npx gatsby develop
+```
