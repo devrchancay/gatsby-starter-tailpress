@@ -7,7 +7,7 @@ if (process.env !== 'production') {
 module.exports = {
   siteMetadata: {
     title: `Gatsby starter Wordpress + Tailwindcss`,
-    description: `Start kit for gatsby, wordpress and tailwindcss`
+    description: `Starter kit for gatsby, wordpress and tailwindcss`
   },
   plugins: [
     {
@@ -43,8 +43,8 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-react-helmet`
-    }
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ]
 };
